@@ -1,0 +1,8 @@
+return {
+  "Shougo/deoplete.nvim",
+  run = ":UpdateRemotePlugins",
+  config = function()
+    vim.cmd("let g:deoplete#enable_at_startup = 1")
+  end,
+  event = "VimEnter",
+}
